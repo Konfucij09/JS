@@ -7,7 +7,7 @@ var min = parseInt;
 if (x <= y)  {
 	min = x;
 }
-	else {
+else {
 	min = y;
 }
 if (z <= min) {
@@ -22,22 +22,22 @@ var number = parseInt(prompt("Введите число в диапозоне о
 if ((number >= -999) && (number<=-100)) {
 	alert ("Отрицательное трехзначное число");
 }
-	else if ((number > -100) && (number<= -10)) {
+else if ((number > -100) && (number<= -10)) {
 	alert ("Отрицательное двухзначное число");
 }
-	else if ((number > -10) && (number < 0)) {
+else if ((number > -10) && (number < 0)) {
 	alert ("Отрицательное однозначное");
 } 
- 	else if (number === 0) {
+ else if (number === 0) {
 	alert ("Нулевое число");
 } 
- 	else if ((number > 0 ) && (number < 10)) {
+ else if ((number > 0 ) && (number < 10)) {
 	alert ("Положительное однозначное число");
 } 
- 	else if ((number >= 10) && (number <100)) {
+ else if ((number >= 10) && (number <100)) {
 	alert ("Положительное двухзначное число");
 } 
- 	else if ((number >= 100) && (number<=999)) {
+ else if ((number >= 100) && (number<=999)) {
 	alert ("Положительное трехзначное число");
 } 
 else {
@@ -51,34 +51,34 @@ var number=parseInt(prompt("Введите целое число от 0 до 9")
 if (number===0) {
 	alert('ноль');
 }
-	else if (number===1) {
+else if (number===1) {
 	alert('один');
 }
-	else if (number===2) {
+else if (number===2) {
 	alert('два');
 }
-	else if (number===3) {
+else if (number===3) {
 	alert('три');
 }
-	else if (number===4) {
+else if (number===4) {
 	alert('четыре');
 }
-	else if (number===5) {
+else if (number===5) {
 	alert('пять');
 }
-	else if (number===6) {
+else if (number===6) {
 	alert('шесть');
 }
-	else if (number===7) {
+else if (number===7) {
 	alert('семь');
 }
-	else if (number===8) {
+else if (number===8) {
 	alert('восемь');
 }
-	else if (number===9) {
+else if (number===9) {
 	alert('девять');
 }
-	else {
+else {
 	alert ('Не входит в диапозон')
 }
 
@@ -88,16 +88,16 @@ var mark=parseInt(prompt('Введите оценку от 1 до 5'))
 if(mark===1){
 	alert('Плохо');
 }
-	else if (mark===2) {
+else if (mark===2) {
 	alert('Неудовлетворительно');
 	}
-	else if (mark===3) {
+else if (mark===3) {
 	alert ('Удовлетворительно');
 	}
-	else if (mark===4){
+else if (mark===4){
 	alert('Хорошо')
 	}
-	else if(mark===5){
+else if(mark===5){
 	alert('Отлично');
 	}
 else {
