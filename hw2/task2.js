@@ -1,8 +1,8 @@
 //Задача 1.
 
-var X = parseInt(prompt('X='));
-var Y= parseInt(prompt('Y='));
-var min = parseInt;
+var X = (prompt('X='));
+var Y = (prompt('Y='));
+var min;
 
 if  (X > Y) {
 	min = Y;
@@ -27,7 +27,7 @@ var kvAB = ((Bx - Ax)*(Bx - Ax) + (By - Ay)*(By - Ay) + (Bz - Az)*(Bz - Az));
 var kvBC = ((Cx - Bx)*(Cx - Bx) + (Cy - By)*(Cy - By) + (Cz - Bz)*(Cz - Bz));
 var kvCA = ((Ax - Cx)*(Ax - Cx) + (Ay - Cy)*(Ay - Cy) + (Az - Cz)*(Az - Cz));
 
-if (kvAB == (kvBC+kvCA) || kvBC == (kvAB+kvCA) || kvCA == (kvAB+kvBC)) {
+if (kvAB === (kvBC+kvCA) || kvBC === (kvAB+kvCA) || kvCA === (kvAB+kvBC)) {
 	alert('Этот треугольник прямоугольный');
 }
 else {
@@ -110,13 +110,14 @@ if(str2 ===newstr){
 //Задача 6.
 
 var year = parseInt(prompt('Введите год нашей эры'));
-if ((year % 100 ===0) && (year % 400 !== 0)){
-	alert('невисокосный');
-} else if (yaer % 4 === 0) {
+if  (year % 4 === 0 && year % 100 !== 0) {
+	alert('високосный');
+} else if (year % 4 === 0 && year % 100 === 0 && year % 400 === 0) {
 	alert('високосный');
 } else {
 	alert('невисокосный');
 }
+
 
 
 //Задача 7.
