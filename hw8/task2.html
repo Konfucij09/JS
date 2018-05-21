@@ -1,0 +1,26 @@
+<!--2. Реализовать счётчик нажатий на 
+кнопку: Дана кнопка внутри неё 
+записана цифра. При клике на 
+кнопку – её значение должно 
+увеличиваться на единицу.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task 2</title>
+	
+</head>
+<body>
+	<input type=button id="clickButton" name="b" value='0'/>
+	<script type="text/javascript">
+		var counter = 0;
+		clickButton.onclick = function clickCounter() {
+			counter++;
+			clickButton.value = counter;
+		}
+		
+	</script>
+
+</body>
+</html>
