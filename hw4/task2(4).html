@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>task 2</title>
+</head>
+<body>
+  <style type="text/css">
+    table {
+      width: 200px;
+      height: 200px;
+    }
+    td {
+      border: solid 2px black;
+    }
+  </style>
+  <div class="container">
+    <table>
+    <tr>
+      <td id='0'></td>
+      <td id='1'></td>
+      <td id='2'></td>
+    </tr>
+    <tr>
+      <td id='3'></td>
+      <td id='4'></td>
+      <td id='5'></td>
+    </tr>
+    <tr>
+      <td id='6'></td>
+      <td id='7'></td>
+      <td id='8'></td>
+    </tr>
+  </table>
+  </div>
+  <script type="text/javascript">
+    var area = [1,0,null,0,null,null,1,null,1];
+   for (var i=0; i<area.length; i++) {
+    if (area[i] === 1) {
+      document.getElementById(i).innerHTML = 'X';
+    }
+    else if (area[i] === 0) {
+      document.getElementById(i).innerHTML = 'O';
+    }
+  }
+  </script>
+</body>
+</html>

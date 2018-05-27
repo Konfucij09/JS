@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>task 3</title>
+</head>
+<body>
+  <script type="text/javascript">
+    var fib = [];
+    fib[0] = 1;
+    fib[1] = 1;
+    for(var i = 2; i <= 20; i++) {
+      fib[i] = fib[i-1] + fib[i-2];
+      fib.push(fib[i]);
+    };
+    vision: function show(e) {
+      var count = prompt('Enter the length Fibonachi: ');
+      e.length = count;
+      console.log(e);
+    }
+    show(fib);
+
+  </script>
+</body>
+</html>
